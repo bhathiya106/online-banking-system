@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <role>Admin</role>
+        <description>Manages staff and loan officers</description>
+    </user>
+    <user>
+        <role>BankingStaff</role>
+        <description>Handles customer operations</description>
+    </user>
+    <user>
+        <role>LoanOfficer</role>
+        <description>Manages loan applications</description>
+    </user>
+</users>

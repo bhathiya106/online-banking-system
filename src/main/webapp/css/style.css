@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("../images/what-u-s-companies-can-learn-from-the-european-payment-scene_1500.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+     font-size: 5rem;
+    font-weight: bold;
+    
+}
+
+form {
+    width: 300px;
+    margin: 100px auto;
+    padding: 40px;
+    
+    background: lightblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    
+    background-color: #004080;
+    overflow: hidden;
+    padding: 10px 20px;
+     
+}
+
+.navbar a {
+    color: #ffffff;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #003366;
+}
+
+.navbar .logout {
+    float: right;
+    background-color: none;
+      font-size: 1rem;
+    font-weight: bold;
+    color:white;
+    padding:10px;
+}
+
+.footer {
+    background-color:lightblue;
+    text-align: center;
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.container1 {
+    max-width: 600px;
+    margin: 150px auto;
+    background-color: #4facfe;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Heading */
+.container1 h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #34495e;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.menu-grid a {
+    display: block;
+    text-align: center;
+    background-color:blue;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.menu-grid a:hover {
+    background-color: #2980b9;
+}
+
+.highlight {
+    background-color: lightblue;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-bottom:10px;
+}
+
+/*withdraw form css*/
+
+/* Container styling */
+.container2 {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background:lightblue;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form title */
+.container2 h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #004080;
+    font-size: 24px;
+}
+
+/* Labels */
+.container2 label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs and select */
+.container2 input[type="number"],
+.container2 select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.container2 input[type="number"]:focus,
+.container2 select:focus {
+    border-color: #0077cc;
+    outline: none;
+}
+
+/* Submit button */
+.container2 input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #0077cc;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container2 input[type="submit"]:hover {
+    background-color: #005fa3;
+}
+
+
